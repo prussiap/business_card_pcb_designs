@@ -1,0 +1,460 @@
+{
+  "title": " Business Card PCB",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#ccffff"
+    },
+    "storyboards": [
+      "Storyboard 1"
+    ],
+    "storyboard-scenes": [
+      {
+        "storyboards": {
+          "Storyboard 1": 1
+        }
+      }
+    ]
+  },
+  "ideas": {
+    "1": {
+      "title": "Project Thoughts",
+      "id": 5,
+      "attr": {
+        "position": [
+          198,
+          -1.5,
+          2
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Weather Clock",
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "DHT22 , BMP180, LDR and battery shield",
+              "id": 46,
+              "ideas": {
+                "1": {
+                  "title": "optional sonar for activation",
+                  "id": 58
+                },
+                "2": {
+                  "title": "optional alarm buzzer",
+                  "id": 59
+                }
+              }
+            },
+            "2": {
+              "title": "outdoor node",
+              "id": 47,
+              "ideas": {
+                "1": {
+                  "title": "esp(01 ideally)",
+                  "id": 52
+                },
+                "2": {
+                  "title": "solar shield with 18056 battery",
+                  "id": 54
+                },
+                "3": {
+                  "title": "ota update",
+                  "id": 56
+                },
+                "4": {
+                  "title": "light sensor",
+                  "id": 57
+                }
+              }
+            },
+            "1.5": {
+              "title": "button menu navigation",
+              "id": 60
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Robot shield",
+          "id": 9
+        },
+        "4": {
+          "title": "Plant Shields",
+          "id": 12
+        },
+        "5": {
+          "title": "Snap off Modules",
+          "id": 13
+        },
+        "6": {
+          "title": "Basic Electronics Skills",
+          "id": 91,
+          "ideas": {
+            "1": {
+              "title": "LED stamp",
+              "id": 94
+            },
+            "2": {
+              "title": "Button Stamp",
+              "id": 95
+            }
+          }
+        },
+        "0.5": {
+          "title": "Shields Boards",
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "D1 Mini",
+              "id": 14
+            },
+            "2": {
+              "title": "NodeMcu",
+              "id": 15
+            },
+            "3": {
+              "title": "ESP210 (maybe)",
+              "id": 16
+            }
+          },
+          "attr": {
+            "position": [
+              79,
+              -215,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "0.75": {
+          "title": "Ensure Each Shield/Module has own pins",
+          "id": 18,
+          "attr": {
+            "style": {}
+          }
+        },
+        "1.5": {
+          "title": "Thermostat",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "3V transistor switch to triac power",
+              "id": 61
+            },
+            "2": {
+              "title": "esp mqtt shield with raspi(any)",
+              "id": 63,
+              "ideas": {
+                "1": {
+                  "title": "setup should include outdoor module to display data",
+                  "id": 70
+                }
+              }
+            },
+            "3": {
+              "title": "or raspi(any) with touchscreen and mycroft",
+              "id": 64,
+              "ideas": {
+                "1": {
+                  "title": "7\" touch",
+                  "id": 65
+                },
+                "2": {
+                  "title": "voice commands",
+                  "id": 66
+                },
+                "3": {
+                  "title": "display temp data on mobile or any other touch device",
+                  "id": 67
+                },
+                "4": {
+                  "title": "usb mic with alsa and basic speaker",
+                  "id": 68
+                }
+              }
+            },
+            "1.5": {
+              "title": "AI",
+              "id": 79,
+              "ideas": {
+                "1": {
+                  "title": "weather api(individual key)",
+                  "id": 80
+                },
+                "2": {
+                  "title": "weekly schedule",
+                  "id": 81
+                },
+                "3": {
+                  "title": "remotely activate",
+                  "id": 82
+                },
+                "4": {
+                  "title": "learn from forecast",
+                  "id": 83,
+                  "ideas": {
+                    "1": {
+                      "title": "sunrise/sunset",
+                      "id": 84
+                    },
+                    "2": {
+                      "title": "compare to esp outdoor node",
+                      "id": 85
+                    },
+                    "3": {
+                      "title": "optional share with wunderground",
+                      "id": 86
+                    },
+                    "4": {
+                      "title": "map outdoor temp to  indoor temp",
+                      "id": 87
+                    },
+                    "5": {
+                      "title": "average temp in rooms",
+                      "id": 88,
+                      "ideas": {
+                        "1": {
+                          "title": "Add room weight (more important room at certain temp)",
+                          "id": 89
+                        }
+                      }
+                    }
+                  }
+                },
+                "1.5": {
+                  "title": "Light sensor could activate LED strip or other modules",
+                  "id": 90
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {},
+            "collapsed": true
+          }
+        },
+        "1.75": {
+          "title": "Magic Mirror",
+          "id": 20
+        },
+        "1.875": {
+          "title": "LED Strips",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "esp power shield",
+              "id": 71
+            },
+            "2": {
+              "title": "RGB(W) SMD5050 led strip",
+              "id": 72
+            },
+            "3": {
+              "title": "mqtt subscription to topic and state",
+              "id": 73
+            },
+            "4": {
+              "title": "dimable via PWM mosfet for each color at 12V",
+              "id": 74
+            },
+            "5": {
+              "title": "Vin 12V",
+              "id": 75
+            },
+            "6": {
+              "title": "power shield has dht22 and maybe bmp180",
+              "id": 76
+            },
+            "7": {
+              "title": "topic with room specific",
+              "id": 77
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "1.9375": {
+          "title": "Solar/Battery outdoor",
+          "id": 22
+        }
+      }
+    },
+    "-10": {
+      "title": "Cloud Glue IOT",
+      "id": 7,
+      "attr": {
+        "position": [
+          214,
+          -5.5,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {}
+    },
+    "-20": {
+      "title": "NetPie",
+      "id": 24,
+      "attr": {
+        "position": [
+          219,
+          60.5,
+          3
+        ],
+        "style": {}
+      }
+    },
+    "-25": {
+      "title": "HomeAutomation (HA)",
+      "id": 26
+    },
+    "-15": {
+      "title": "Overall Ecosystem",
+      "id": 25,
+      "attr": {
+        "style": {},
+        "position": [
+          272,
+          14.5,
+          4
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Communication",
+          "id": 28,
+          "ideas": {
+            "1": {
+              "title": "MQTT",
+              "id": 31,
+              "ideas": {
+                "1": {
+                  "title": "TLS esp secure",
+                  "id": 36
+                },
+                "2": {
+                  "title": "Device key and topic",
+                  "id": 37
+                },
+                "3": {
+                  "title": "pub/sub",
+                  "id": 38
+                }
+              }
+            },
+            "2": {
+              "title": "Websockets",
+              "id": 32
+            },
+            "1.5": {
+              "title": "REST",
+              "id": 34,
+              "ideas": {
+                "1": {
+                  "title": "Way to get data from device?",
+                  "id": 39
+                },
+                "2": {
+                  "title": "Post Config changes",
+                  "id": 40
+                },
+                "3": {
+                  "title": "Travic CI versions and device update",
+                  "id": 41
+                }
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Local IOT",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "New Device",
+              "id": 43,
+              "ideas": {
+                "1": {
+                  "title": "Connect to Wifi",
+                  "id": 44
+                },
+                "2": {
+                  "title": "Find local IOT \"Brain\" or HA",
+                  "id": 45
+                },
+                "3": {
+                  "title": "store wifi settings",
+                  "id": 48
+                },
+                "4": {
+                  "title": "register device with unique key assign topic",
+                  "id": 49
+                },
+                "5": {
+                  "title": "send/receive mqtt data and display",
+                  "id": 50
+                },
+                "6": {
+                  "title": "display gui and graphs as necessary",
+                  "id": 51
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Cloud IOT",
+          "id": 30
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 43,
+      "ideaIdTo": 19,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 43,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 90,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
