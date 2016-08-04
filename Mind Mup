@@ -103,6 +103,44 @@
             "2": {
               "title": "Button Stamp",
               "id": 95
+            },
+            "3": {
+              "title": "neopixel",
+              "id": 96
+            },
+            "4": {
+              "title": "WS8126 shield",
+              "id": 97
+            },
+            "5": {
+              "title": "robot shield",
+              "id": 98
+            },
+            "6": {
+              "title": "keypad shield",
+              "id": 99,
+              "ideas": {
+                "1": {
+                  "title": "encodeer",
+                  "id": 103
+                },
+                "2": {
+                  "title": "servo maybe defultservice",
+                  "id": 104
+                }
+              }
+            },
+            "7": {
+              "title": "line following shield",
+              "id": 102
+            },
+            "5.5": {
+              "title": "i2C NFC ",
+              "id": 100
+            },
+            "4.5": {
+              "title": "Sonar",
+              "id": 105
             }
           }
         },
@@ -277,7 +315,6 @@
             }
           },
           "attr": {
-            "collapsed": true,
             "style": {}
           }
         },
