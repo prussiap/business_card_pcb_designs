@@ -82,11 +82,271 @@
         },
         "2": {
           "title": "Robot shield",
-          "id": 9
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "Motors",
+              "id": 122,
+              "ideas": {
+                "1": {
+                  "title": "2 Servos (simpler)",
+                  "id": 125
+                },
+                "2": {
+                  "title": "H-bridge shield",
+                  "id": 126,
+                  "ideas": {
+                    "1": {
+                      "title": "2-4 DC motors and encoders. ",
+                      "id": 127
+                    },
+                    "2": {
+                      "title": "Vibration 1.3V motors solder on pcb directly",
+                      "id": 128
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Stackable Shields",
+              "id": 123,
+              "ideas": {
+                "1": {
+                  "title": "Battery Shield/Solar",
+                  "id": 130
+                },
+                "2": {
+                  "title": "Sonar/Sensor Shields",
+                  "id": 131
+                },
+                "3": {
+                  "title": "OLED shield (from weather or other)",
+                  "id": 132,
+                  "ideas": {
+                    "1": {
+                      "title": "oled shield for smily face",
+                      "id": 134
+                    }
+                  }
+                },
+                "4": {
+                  "title": "LED shield",
+                  "id": 133
+                }
+              }
+            },
+            "3": {
+              "title": "MQTT and maybe Smarphone control app?",
+              "id": 124
+            },
+            "4": {
+              "title": "Brain",
+              "id": 135,
+              "ideas": {
+                "1": {
+                  "title": "ESP with wifi app control (BLYNK)",
+                  "id": 136
+                },
+                "2": {
+                  "title": "Raspi Zero or other shield. More coding options",
+                  "id": 137
+                }
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
         },
         "4": {
           "title": "Plant Shields",
-          "id": 12
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "Soil Humidity Sensor",
+              "id": 138,
+              "ideas": {
+                "1": {
+                  "title": "PCB soil sensor",
+                  "id": 143
+                },
+                "2": {
+                  "title": "cheap addition soil sensor",
+                  "id": 144
+                },
+                "3": {
+                  "title": "calibration",
+                  "id": 145
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Rain Sensor",
+              "id": 139,
+              "ideas": {
+                "1": {
+                  "title": "Extra rain level sensors",
+                  "id": 146
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "ESP sensor Shields",
+              "id": 140,
+              "ideas": {
+                "1": {
+                  "title": "Battery/Solar",
+                  "id": 147
+                },
+                "2": {
+                  "title": "Light sensor",
+                  "id": 148
+                },
+                "3": {
+                  "title": "LED/Neopixel shield for extra lighting",
+                  "id": 149
+                },
+                "4": {
+                  "title": "Motion sensing for LED/Neopixel",
+                  "id": 150
+                },
+                "5": {
+                  "title": "Can communicate to Weather Clock. External data.",
+                  "id": 151
+                },
+                "6": {
+                  "title": "Humidity/temp/ldr shields. Can snap from weather clock.",
+                  "id": 152
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "4": {
+              "title": "Plant watering",
+              "id": 141,
+              "ideas": {
+                "1": {
+                  "title": "Attached to Hose and Solenoid. Need home power probably",
+                  "id": 153,
+                  "ideas": {
+                    "1": {
+                      "title": "power wall",
+                      "id": 157,
+                      "ideas": {}
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Irrigation tubing and hose. Need real power.",
+                  "id": 154,
+                  "ideas": {
+                    "1": {
+                      "title": "power wall",
+                      "id": 159
+                    }
+                  }
+                },
+                "3": {
+                  "title": "From water bottle, simple usb water pump, or gravity pull (less mechanical)",
+                  "id": 155,
+                  "ideas": {
+                    "1": {
+                      "title": "Battery mode works",
+                      "id": 156
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "5": {
+              "title": "From Seed Pod",
+              "id": 142,
+              "ideas": {
+                "1": {
+                  "title": "Like Herb Garden",
+                  "id": 160
+                },
+                "2": {
+                  "title": "3D printed pot with water level window",
+                  "id": 161
+                },
+                "3": {
+                  "title": "Plant shield for indoor/outdoor",
+                  "id": 162,
+                  "ideas": {
+                    "1": {
+                      "title": "Power",
+                      "id": 164,
+                      "ideas": {}
+                    },
+                    "2": {
+                      "title": "Battery/solar",
+                      "id": 166
+                    }
+                  }
+                },
+                "4": {
+                  "title": "MQTT with phone monitoring app for multiple plants.",
+                  "id": 167,
+                  "ideas": {
+                    "1": {
+                      "title": "Track LDR",
+                      "id": 168
+                    },
+                    "2": {
+                      "title": "Track Humidity",
+                      "id": 169
+                    },
+                    "3": {
+                      "title": "Track TEMP",
+                      "id": 170
+                    },
+                    "4": {
+                      "title": "Track Soil moisture",
+                      "id": 171
+                    },
+                    "5": {
+                      "title": "Compare sensor data to weatherUnderground data.",
+                      "id": 172
+                    },
+                    "6": {
+                      "title": "TimeStamp Camera shield (OV6700 jpeg camera option)",
+                      "id": 173
+                    },
+                    "7": {
+                      "title": "Gravity/Gallon water pump jug",
+                      "id": 174
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
         },
         "5": {
           "title": "Snap off Modules",
@@ -139,7 +399,7 @@
               "id": 100
             },
             "4.5": {
-              "title": "Sonar",
+              "title": "Sonar/Motion",
               "id": 105
             }
           }
@@ -315,12 +575,9 @@
             }
           },
           "attr": {
-            "style": {}
+            "style": {},
+            "collapsed": true
           }
-        },
-        "1.9375": {
-          "title": "Solar/Battery outdoor",
-          "id": 22
         }
       }
     },
