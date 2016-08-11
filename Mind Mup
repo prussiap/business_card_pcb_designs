@@ -350,7 +350,25 @@
         },
         "5": {
           "title": "Snap off Modules",
-          "id": 13
+          "id": 13,
+          "ideas": {
+            "1": {
+              "title": "ANY pcb module is snap off original board",
+              "id": 175
+            },
+            "2": {
+              "title": "Can be interchanged with other modules via soldering",
+              "id": 176
+            },
+            "3": {
+              "title": "Keep as one device to learn coding and soldering prior to splitting ",
+              "id": 177
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
         },
         "6": {
           "title": "Basic Electronics Skills",
@@ -385,7 +403,7 @@
                   "id": 103
                 },
                 "2": {
-                  "title": "servo maybe defultservice",
+                  "title": "servo maybe defult service",
                   "id": 104
                 }
               }
@@ -402,6 +420,10 @@
               "title": "Sonar/Motion",
               "id": 105
             }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
           }
         },
         "0.5": {
@@ -427,14 +449,22 @@
               -215,
               1
             ],
-            "style": {}
+            "style": {},
+            "collapsed": true
           }
         },
         "0.75": {
           "title": "Ensure Each Shield/Module has own pins",
           "id": 18,
           "attr": {
-            "style": {}
+            "style": {},
+            "collapsed": true
+          },
+          "ideas": {
+            "1": {
+              "title": "As many stackable pins/shields as possible. ",
+              "id": 178
+            }
           }
         },
         "1.5": {
@@ -743,6 +773,16 @@
     {
       "ideaIdFrom": 90,
       "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 91,
+      "ideaIdTo": 13,
       "attr": {
         "style": {
           "color": "#FF0000",
