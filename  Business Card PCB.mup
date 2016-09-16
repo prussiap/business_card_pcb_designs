@@ -1,0 +1,789 @@
+{
+  "title": " Business Card PCB",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#ccffff"
+    },
+    "storyboards": [
+      "Storyboard 1"
+    ],
+    "storyboard-scenes": [
+      {
+        "storyboards": {
+          "Storyboard 1": 1
+        }
+      }
+    ]
+  },
+  "ideas": {
+    "1": {
+      "title": "Project Thoughts",
+      "id": 5,
+      "attr": {
+        "position": [
+          198,
+          -1.5,
+          2
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Weather Clock",
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "DHT22 , BMP180, LDR and battery shield",
+              "id": 46,
+              "ideas": {
+                "1": {
+                  "title": "optional sonar for activation",
+                  "id": 58
+                },
+                "2": {
+                  "title": "optional alarm buzzer",
+                  "id": 59
+                }
+              }
+            },
+            "2": {
+              "title": "outdoor node",
+              "id": 47,
+              "ideas": {
+                "1": {
+                  "title": "esp(01 ideally)",
+                  "id": 52
+                },
+                "2": {
+                  "title": "solar shield with 18056 battery",
+                  "id": 54
+                },
+                "3": {
+                  "title": "ota update",
+                  "id": 56
+                },
+                "4": {
+                  "title": "light sensor",
+                  "id": 57
+                }
+              }
+            },
+            "1.5": {
+              "title": "button menu navigation",
+              "id": 60
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Robot shield",
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "Motors",
+              "id": 122,
+              "ideas": {
+                "1": {
+                  "title": "2 Servos (simpler)",
+                  "id": 125
+                },
+                "2": {
+                  "title": "H-bridge shield",
+                  "id": 126,
+                  "ideas": {
+                    "1": {
+                      "title": "2-4 DC motors and encoders. ",
+                      "id": 127
+                    },
+                    "2": {
+                      "title": "Vibration 1.3V motors solder on pcb directly",
+                      "id": 128
+                    }
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Stackable Shields",
+              "id": 123,
+              "ideas": {
+                "1": {
+                  "title": "Battery Shield/Solar",
+                  "id": 130
+                },
+                "2": {
+                  "title": "Sonar/Sensor Shields",
+                  "id": 131
+                },
+                "3": {
+                  "title": "OLED shield (from weather or other)",
+                  "id": 132,
+                  "ideas": {
+                    "1": {
+                      "title": "oled shield for smily face",
+                      "id": 134
+                    }
+                  }
+                },
+                "4": {
+                  "title": "LED shield",
+                  "id": 133
+                }
+              }
+            },
+            "3": {
+              "title": "MQTT and maybe Smarphone control app?",
+              "id": 124
+            },
+            "4": {
+              "title": "Brain",
+              "id": 135,
+              "ideas": {
+                "1": {
+                  "title": "ESP with wifi app control (BLYNK)",
+                  "id": 136
+                },
+                "2": {
+                  "title": "Raspi Zero or other shield. More coding options",
+                  "id": 137
+                }
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "4": {
+          "title": "Plant Shields",
+          "id": 12,
+          "ideas": {
+            "1": {
+              "title": "Soil Humidity Sensor",
+              "id": 138,
+              "ideas": {
+                "1": {
+                  "title": "PCB soil sensor",
+                  "id": 143
+                },
+                "2": {
+                  "title": "cheap addition soil sensor",
+                  "id": 144
+                },
+                "3": {
+                  "title": "calibration",
+                  "id": 145
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Rain Sensor",
+              "id": 139,
+              "ideas": {
+                "1": {
+                  "title": "Extra rain level sensors",
+                  "id": 146
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "ESP sensor Shields",
+              "id": 140,
+              "ideas": {
+                "1": {
+                  "title": "Battery/Solar",
+                  "id": 147
+                },
+                "2": {
+                  "title": "Light sensor",
+                  "id": 148
+                },
+                "3": {
+                  "title": "LED/Neopixel shield for extra lighting",
+                  "id": 149
+                },
+                "4": {
+                  "title": "Motion sensing for LED/Neopixel",
+                  "id": 150
+                },
+                "5": {
+                  "title": "Can communicate to Weather Clock. External data.",
+                  "id": 151
+                },
+                "6": {
+                  "title": "Humidity/temp/ldr shields. Can snap from weather clock.",
+                  "id": 152
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "4": {
+              "title": "Plant watering",
+              "id": 141,
+              "ideas": {
+                "1": {
+                  "title": "Attached to Hose and Solenoid. Need home power probably",
+                  "id": 153,
+                  "ideas": {
+                    "1": {
+                      "title": "power wall",
+                      "id": 157,
+                      "ideas": {}
+                    }
+                  }
+                },
+                "2": {
+                  "title": "Irrigation tubing and hose. Need real power.",
+                  "id": 154,
+                  "ideas": {
+                    "1": {
+                      "title": "power wall",
+                      "id": 159
+                    }
+                  }
+                },
+                "3": {
+                  "title": "From water bottle, simple usb water pump, or gravity pull (less mechanical)",
+                  "id": 155,
+                  "ideas": {
+                    "1": {
+                      "title": "Battery mode works",
+                      "id": 156
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            },
+            "5": {
+              "title": "From Seed Pod",
+              "id": 142,
+              "ideas": {
+                "1": {
+                  "title": "Like Herb Garden",
+                  "id": 160
+                },
+                "2": {
+                  "title": "3D printed pot with water level window",
+                  "id": 161
+                },
+                "3": {
+                  "title": "Plant shield for indoor/outdoor",
+                  "id": 162,
+                  "ideas": {
+                    "1": {
+                      "title": "Power",
+                      "id": 164,
+                      "ideas": {}
+                    },
+                    "2": {
+                      "title": "Battery/solar",
+                      "id": 166
+                    }
+                  }
+                },
+                "4": {
+                  "title": "MQTT with phone monitoring app for multiple plants.",
+                  "id": 167,
+                  "ideas": {
+                    "1": {
+                      "title": "Track LDR",
+                      "id": 168
+                    },
+                    "2": {
+                      "title": "Track Humidity",
+                      "id": 169
+                    },
+                    "3": {
+                      "title": "Track TEMP",
+                      "id": 170
+                    },
+                    "4": {
+                      "title": "Track Soil moisture",
+                      "id": 171
+                    },
+                    "5": {
+                      "title": "Compare sensor data to weatherUnderground data.",
+                      "id": 172
+                    },
+                    "6": {
+                      "title": "TimeStamp Camera shield (OV6700 jpeg camera option)",
+                      "id": 173
+                    },
+                    "7": {
+                      "title": "Gravity/Gallon water pump jug",
+                      "id": 174
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "5": {
+          "title": "Snap off Modules",
+          "id": 13,
+          "ideas": {
+            "1": {
+              "title": "ANY pcb module is snap off original board",
+              "id": 175
+            },
+            "2": {
+              "title": "Can be interchanged with other modules via soldering",
+              "id": 176
+            },
+            "3": {
+              "title": "Keep as one device to learn coding and soldering prior to splitting ",
+              "id": 177
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "6": {
+          "title": "Basic Electronics Skills",
+          "id": 91,
+          "ideas": {
+            "1": {
+              "title": "LED stamp",
+              "id": 94
+            },
+            "2": {
+              "title": "Button Stamp",
+              "id": 95
+            },
+            "3": {
+              "title": "neopixel",
+              "id": 96
+            },
+            "4": {
+              "title": "WS8126 shield",
+              "id": 97
+            },
+            "5": {
+              "title": "robot shield",
+              "id": 98
+            },
+            "6": {
+              "title": "keypad shield",
+              "id": 99,
+              "ideas": {
+                "1": {
+                  "title": "encodeer",
+                  "id": 103
+                },
+                "2": {
+                  "title": "servo maybe defult service",
+                  "id": 104
+                }
+              }
+            },
+            "7": {
+              "title": "line following shield",
+              "id": 102
+            },
+            "5.5": {
+              "title": "i2C NFC ",
+              "id": 100
+            },
+            "4.5": {
+              "title": "Sonar/Motion",
+              "id": 105
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "0.5": {
+          "title": "Shields Boards",
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "D1 Mini",
+              "id": 14
+            },
+            "2": {
+              "title": "NodeMcu",
+              "id": 15
+            },
+            "3": {
+              "title": "ESP210 (maybe)",
+              "id": 16
+            }
+          },
+          "attr": {
+            "position": [
+              79,
+              -215,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "0.75": {
+          "title": "Ensure Each Shield/Module has own pins",
+          "id": 18,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "As many stackable pins/shields as possible. ",
+              "id": 178
+            }
+          }
+        },
+        "1.5": {
+          "title": "Thermostat",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "3V transistor switch to triac power",
+              "id": 61
+            },
+            "2": {
+              "title": "esp mqtt shield with raspi(any)",
+              "id": 63,
+              "ideas": {
+                "1": {
+                  "title": "setup should include outdoor module to display data",
+                  "id": 70
+                }
+              }
+            },
+            "3": {
+              "title": "or raspi(any) with touchscreen and mycroft",
+              "id": 64,
+              "ideas": {
+                "1": {
+                  "title": "7\" touch",
+                  "id": 65
+                },
+                "2": {
+                  "title": "voice commands",
+                  "id": 66
+                },
+                "3": {
+                  "title": "display temp data on mobile or any other touch device",
+                  "id": 67
+                },
+                "4": {
+                  "title": "usb mic with alsa and basic speaker",
+                  "id": 68
+                }
+              }
+            },
+            "1.5": {
+              "title": "AI",
+              "id": 79,
+              "ideas": {
+                "1": {
+                  "title": "weather api(individual key)",
+                  "id": 80
+                },
+                "2": {
+                  "title": "weekly schedule",
+                  "id": 81
+                },
+                "3": {
+                  "title": "remotely activate",
+                  "id": 82
+                },
+                "4": {
+                  "title": "learn from forecast",
+                  "id": 83,
+                  "ideas": {
+                    "1": {
+                      "title": "sunrise/sunset",
+                      "id": 84
+                    },
+                    "2": {
+                      "title": "compare to esp outdoor node",
+                      "id": 85
+                    },
+                    "3": {
+                      "title": "optional share with wunderground",
+                      "id": 86
+                    },
+                    "4": {
+                      "title": "map outdoor temp to  indoor temp",
+                      "id": 87
+                    },
+                    "5": {
+                      "title": "average temp in rooms",
+                      "id": 88,
+                      "ideas": {
+                        "1": {
+                          "title": "Add room weight (more important room at certain temp)",
+                          "id": 89
+                        }
+                      }
+                    }
+                  }
+                },
+                "1.5": {
+                  "title": "Light sensor could activate LED strip or other modules",
+                  "id": 90
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {},
+            "collapsed": true
+          }
+        },
+        "1.75": {
+          "title": "Magic Mirror",
+          "id": 20
+        },
+        "1.875": {
+          "title": "LED Strips",
+          "id": 21,
+          "ideas": {
+            "1": {
+              "title": "esp power shield",
+              "id": 71
+            },
+            "2": {
+              "title": "RGB(W) SMD5050 led strip",
+              "id": 72
+            },
+            "3": {
+              "title": "mqtt subscription to topic and state",
+              "id": 73
+            },
+            "4": {
+              "title": "dimable via PWM mosfet for each color at 12V",
+              "id": 74
+            },
+            "5": {
+              "title": "Vin 12V",
+              "id": 75
+            },
+            "6": {
+              "title": "power shield has dht22 and maybe bmp180",
+              "id": 76
+            },
+            "7": {
+              "title": "topic with room specific",
+              "id": 77
+            }
+          },
+          "attr": {
+            "style": {},
+            "collapsed": true
+          }
+        }
+      }
+    },
+    "-10": {
+      "title": "Cloud Glue IOT",
+      "id": 7,
+      "attr": {
+        "position": [
+          214,
+          -5.5,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {}
+    },
+    "-20": {
+      "title": "NetPie",
+      "id": 24,
+      "attr": {
+        "position": [
+          219,
+          60.5,
+          3
+        ],
+        "style": {}
+      }
+    },
+    "-25": {
+      "title": "HomeAutomation (HA)",
+      "id": 26
+    },
+    "-15": {
+      "title": "Overall Ecosystem",
+      "id": 25,
+      "attr": {
+        "style": {},
+        "position": [
+          272,
+          14.5,
+          4
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Communication",
+          "id": 28,
+          "ideas": {
+            "1": {
+              "title": "MQTT",
+              "id": 31,
+              "ideas": {
+                "1": {
+                  "title": "TLS esp secure",
+                  "id": 36
+                },
+                "2": {
+                  "title": "Device key and topic",
+                  "id": 37
+                },
+                "3": {
+                  "title": "pub/sub",
+                  "id": 38
+                }
+              }
+            },
+            "2": {
+              "title": "Websockets",
+              "id": 32
+            },
+            "1.5": {
+              "title": "REST",
+              "id": 34,
+              "ideas": {
+                "1": {
+                  "title": "Way to get data from device?",
+                  "id": 39
+                },
+                "2": {
+                  "title": "Post Config changes",
+                  "id": 40
+                },
+                "3": {
+                  "title": "Travic CI versions and device update",
+                  "id": 41
+                }
+              }
+            }
+          },
+          "attr": {
+            "collapsed": true,
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Local IOT",
+          "id": 29,
+          "ideas": {
+            "1": {
+              "title": "New Device",
+              "id": 43,
+              "ideas": {
+                "1": {
+                  "title": "Connect to Wifi",
+                  "id": 44
+                },
+                "2": {
+                  "title": "Find local IOT \"Brain\" or HA",
+                  "id": 45
+                },
+                "3": {
+                  "title": "store wifi settings",
+                  "id": 48
+                },
+                "4": {
+                  "title": "register device with unique key assign topic",
+                  "id": 49
+                },
+                "5": {
+                  "title": "send/receive mqtt data and display",
+                  "id": 50
+                },
+                "6": {
+                  "title": "display gui and graphs as necessary",
+                  "id": 51
+                }
+              },
+              "attr": {
+                "collapsed": true,
+                "style": {}
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Cloud IOT",
+          "id": 30
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 43,
+      "ideaIdTo": 19,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 43,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 90,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 91,
+      "ideaIdTo": 13,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
